@@ -1,0 +1,603 @@
+.about-home {
+    height: 100vh;
+    background: url('../img/waves.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-img-continer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 15%;
+    overflow: hidden;
+}
+
+.about-img-continer img {
+    height: 400px;
+}
+
+.about-img-continer p {
+    text-align: center;
+   
+}
+
+.about-title {
+    position: absolute;
+    top: 15%;
+    width: 50%;
+    left: 20%;
+}
+
+.about-title p {
+    font-family: 'New York';
+    font-size: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+    text-transform: uppercase;
+    text-align: right;
+    
+}
+
+.about-circle-img {
+    height: 20vh !important;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    animation: rotation 8s infinite linear; 
+    /* z-index: 9; */
+}
+
+.abt-btn-cnt {
+    position: absolute;
+    left: 6%;
+    top: 80vh; 
+    overflow: hidden;
+}
+
+.abt-btn-img {
+    height: 10vh !important;
+
+}
+
+.overflow-hide {
+    overflow: hidden;
+}
+
+.abt-btn-cnt p {
+    font-size: 14px;
+    font-family: 'Poppins';
+    position: unset;
+    text-align: left;
+    width: auto;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.about-container-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 50px;
+}
+
+.abt-grid-img {
+    text-align: center;
+}
+
+.abt-grid-img img {
+    height: 100vh;
+    border-radius: 0% 60% 0% 0%;
+}
+
+.abt-grid-text {
+    text-align: left;
+}
+
+.abt-grid-title {
+    height: 250px;
+}
+
+.abt-grid-title p {
+    position: absolute;
+    overflow: hidden;
+}
+
+.abt-title-fill {
+    font-family: "RoxboroughCF";
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    overflow: hidden;
+    /* z-index: 100; */
+}
+
+.abt-title-border {
+    overflow: hidden;
+    font-family: "RoxboroughCF";
+    font-style: italic;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  opacity: 0.5;
+}
+
+.abt-grid-title-m {
+    display: none;
+}
+
+.abt-desc-list {
+
+    text-align: left;
+    width: 100%;
+}
+
+.abt-desc-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.abt-desc-list ul li {
+    width: 100%;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.abt-desc-list ul li span {
+    width: 50%;
+}
+
+.abt-desc-list ul li img {
+
+    height: 30px;
+    width: 50px;
+}
+
+
+
+.abt-back-box {
+    background: #ccc;
+    height: 600px;
+    width: 50vw;
+    position: absolute;
+    top: 135vh;
+    z-index: -9999;
+}
+
+.abt-quote-text {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.abt-center-title-quote p {
+    font-family: 'Gallient Regular';
+    font-size: 40px;
+    text-align: center;
+}
+
+.abt-center-title-quote h3 {
+    font-family: 'Gallient Regular';
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.abt-center-title-quote {
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+
+
+
+.wave-img-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto !important;
+    width: 100%;
+}
+
+.star-oneimg {
+    float: right;
+    height: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    animation: rotation 8s infinite linear; 
+
+}
+
+.star-twoimg {
+    float: left;
+    height: 140px;
+    margin-left: 200px;
+    animation: rotation 10s infinite linear; 
+}
+
+.about-circle-img2 {
+    height: 20vh !important;
+    position: absolute;
+    right: 5%;
+
+
+    animation: rotation 8s infinite linear; 
+    z-index: 200;
+}
+
+.about-grid-details {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    position: relative
+}
+
+.about-grid-details img {
+    height: 500px;
+    float: right;
+    position: relative;
+}
+
+.bg-container-grid {
+    background: #FCF5F2;
+    padding-top: 100px;
+    padding-left: 100px;
+    overflow:hidden;
+}
+
+.about-grid-details p{
+    padding: 100px;
+    padding-left: 0px;
+    padding-top: 100px;
+}
+
+.about-grid-details h3{
+    font-family: 'Gallient Regular';
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.team-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    
+}
+
+.team-grid-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+    /* z-index: 100; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-grid-container img {
+    height: 400px;
+}
+
+.team-grid-container p{ 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-grid-container h3{ 
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.browncircle-bg {
+    background: #FCF5F2; 
+    height: 400px;
+    width: 50vw;
+    float: right;
+
+    background-position: right;
+}
+
+.browncircle-bg img {
+    height: 300px;
+    float: right;
+}
+
+.some-quote-container {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.gray-img-box {
+    background: #f1f1f1;
+    height: 60vh;
+    width: 40vw;
+    float: left;
+    background-position: left;
+}
+
+.gray-img-box  img {
+    height: 300px;
+    float: left;
+}
+
+.some-quote-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+.ouline-img-container {
+    position: relative;
+    left: 30%;
+
+}
+.abt-outline-img {
+    height: 40vh;
+    opacity: 1;
+
+}
+
+.some-quote-grid p {
+    width: 90%;
+}
+
+.circle-rotate {
+    height: 20vh !important;
+    position: relative;
+    top: 50%;
+    left: -5%;
+    animation: rotation 8s infinite linear; 
+    /* z-index: 9; */
+}
+
+
+.abt-point-grid {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.abt-point-grid img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.abt-point-grid span {
+    margin-bottom: 60px;
+}
+
+
+
+@media only screen and (max-width: 768px) { 
+
+    .about-title {
+        width: 100%;
+        z-index: 150;
+        left: 0;
+        top: 12%;
+    }
+
+    .about-title p {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .about-img-continer {
+        margin-top: 65%;
+    }
+
+    .about-img-continer img {
+        height: 50vh;
+        
+    }
+
+    .about-img-continer p {
+        margin: 0px 20px;
+    }
+
+    .about-container-grid {
+        margin: 20px;
+    }
+
+    .abt-btn-cnt {
+        display: none;
+    }
+
+    .about-circle-img {
+        height: 13vh !important;
+        top: 22%;
+        right: 25px;
+        left: auto;
+    }
+
+
+    .abt-grid-title {
+        display: none;
+    }
+    
+.abt-grid-title-m {
+    height: 200px;
+    display: block;
+}
+
+.abt-grid-title-m p {
+    position: absolute;
+    overflow: hidden;
+    text-align: left;
+}
+
+.abt-title-fill {
+    font-size: 3rem;
+
+}
+
+.abt-title-border {
+
+    font-size: 3rem;
+
+}
+
+.about-container-grid {
+    grid-template-columns: none;
+}
+
+.abt-grid-img img {
+    height: 65vh;
+    width: 95%;
+}
+
+.abt-back-box {
+    width: 70vw;
+}
+
+.abt-point-grid {
+    grid-template-columns: 20% 80%;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+
+
+.abt-center-title-quote {
+    margin-top: 10px;
+}
+
+.abt-center-title-quote h3 {
+    font-size: 40px;
+}
+.abt-center-title-quote p {
+    font-size: 30px;
+}
+
+.star-twoimg {
+    height: 80px;
+    margin-left: 20px;
+}
+.star-oneimg {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+.about-grid-details {
+    grid-template-columns: none;
+}
+
+.bg-container-grid {
+    padding: 30px;
+}
+
+.about-grid-details h3 {
+    font-size: 40px;
+}
+
+.about-grid-details p {
+    padding: 20px 0px;
+    font-size: 14px;
+    
+}
+
+.about-grid-details img {
+    height: 400px;
+}
+
+.about-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-circle-img2 {
+    left: 5%;
+    top: 80vh;
+    right: auto;
+}
+
+.browncircle-bg {
+    width: 70vw;
+}
+
+.gray-img-box {
+    width: 80vw;
+}
+
+.team-container {
+    height: auto;
+}
+
+.team-grid-container {
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    overflow: hidden;
+}
+
+.team-absou {
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.some-quote-grid {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+    width: auto;
+    margin: 20px;
+}
+
+.some-quote-container {
+    height: auto;
+}
+
+.some-quote-grid p {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.ouline-img-container {
+    left: 0px;
+    text-align: center;
+}
+
+.abt-outline-img {
+    height: 30vh;
+}
+
+.circle-rotate {
+    display: none;
+}
+
+
+
+ }
